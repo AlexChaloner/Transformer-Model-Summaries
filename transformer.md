@@ -1,4 +1,4 @@
-# The Transformer (Attention is All You Need)
+# (The Transformer) Attention is All You Need
 
 Arxiv Link: https://arxiv.org/pdf/1706.03762.pdf
 
