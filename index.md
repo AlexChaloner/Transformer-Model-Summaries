@@ -5,10 +5,11 @@ There are plenty of Transformer methods out there, and it's difficult to keep ev
 ## Transformer Models
 
 In Progress:
-* [Transformer](https://github.com/AlexChaloner/Transformer-Model-Summaries/wiki/(Transformer)-Attention-Is-All-You-Need)
-* [ELMo]((ELMo)-Deep-contextualized-word-representations) (Not a Transformer, but important)
-* [BERT](https://github.com/AlexChaloner/Transformer-Model-Summaries/wiki/(BERT)-BERT:-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding)
-* [ALBERT](https://github.com/AlexChaloner/Transformer-Model-Summaries/wiki/(ALBERT)-ALBERT:-A-Lite-BERT-for-Self-supervised-Learning-of-Language-Representations)
+* [Transformer][Transformer]
+* [ELMo][ELMo]
+* [BERT][BERT]
+* [ALBERT]
+* [XLNET]
 
 Planned:
 * RoBERTa
@@ -32,3 +33,9 @@ Planned:
 * Conflicting findings from review papers
 * Timeline
 
+
+[Transformer]: transformer
+[ELMo]: elmo
+[BERT]: bert
+[ALBERT]: albert
+[XLNET]: xlnet
