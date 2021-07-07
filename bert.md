@@ -1,7 +1,11 @@
+# (BERT) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 Arxiv Link: https://arxiv.org/pdf/1810.04805.pdf
 
-Devlin J, Chang MW, Lee K, Toutanova K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805. 2018 Oct 11.
+Papers with Code link: https://paperswithcode.com/paper/bert-pre-training-of-deep-bidirectional
+
+
+> Devlin J, Chang MW, Lee K, Toutanova K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805. 2018 Oct 11.
 
 
 ## Summary

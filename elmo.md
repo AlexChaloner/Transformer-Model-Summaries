@@ -2,7 +2,10 @@
 
 Arxiv Link: https://arxiv.org/pdf/1802.05365.pdf
 
-Peters ME, Neumann M, Iyyer M, Gardner M, Clark C, Lee K, Zettlemoyer L. Deep contextualized word representations. arXiv preprint arXiv:1802.05365. 2018 Feb 15.
+Papers with Code link: https://paperswithcode.com/paper/deep-contextualized-word-representations
+
+
+> Peters ME, Neumann M, Iyyer M, Gardner M, Clark C, Lee K, Zettlemoyer L. Deep contextualized word representations. arXiv preprint arXiv:1802.05365. 2018 Feb 15.
 
 
 ## Summary

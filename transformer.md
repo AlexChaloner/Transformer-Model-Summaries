@@ -2,7 +2,10 @@
 
 Arxiv Link: https://arxiv.org/pdf/1706.03762.pdf
 
-Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
+Papers with Code link: https://paperswithcode.com/paper/attention-is-all-you-need
+
+
+> Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
 
 
 ## Summary
@@ -28,9 +31,9 @@ N/A
 
 Sinusoidal encodings.
 
-PE(pos, 2i)     = sin(pos/10000^(2i/d))
+\\(PE(pos, 2i)     = sin(pos/10000^(2i/d)) \\)
 
-PE(pos, 2i + 1) = cos(pos/10000*(2i/d))
+\\( PE(pos, 2i + 1) = cos(pos/10000*(2i/d)) \\)
 
 ### Attention Mechanism
 
