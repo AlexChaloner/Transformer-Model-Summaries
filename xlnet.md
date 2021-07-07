@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # (XLNET) XLNET: Generalized Autoregressize Pretraining for Language Understanding
 
 Arxiv Link: https://arxiv.org/pdf/1906.08237.pdf

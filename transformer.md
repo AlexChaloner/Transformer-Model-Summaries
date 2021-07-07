@@ -1,5 +1,5 @@
 ---
-usemathjax: true
+layout: default
 ---
 
 # (The Transformer) Attention is All You Need
