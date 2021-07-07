@@ -5,13 +5,15 @@ There are plenty of Transformer methods out there, and it's difficult to keep ev
 ## Transformer Models
 
 In Progress:
-* [Transformer][Transformer]
-* [ELMo][ELMo]
-* [BERT][BERT]
+
+* [Transformer]
+* [ELMo]
+* [BERT]
 * [ALBERT]
 * [XLNET]
 
 Planned:
+
 * RoBERTa
 * DeBERTa
 * T5
@@ -20,10 +22,10 @@ Planned:
 * GPT-3
 * BART
 
-
 ## Overview Pages
 
 Planned:
+
 * Pretraining FLOPs vs finetuning FLOPs vs model size vs Benchmark Performance
 * Attention Mechanisms
 * Pretraining Methods
@@ -32,7 +34,6 @@ Planned:
 * Positional Encoding Methods
 * Conflicting findings from review papers
 * Timeline
-
 
 [Transformer]: transformer
 [ELMo]: elmo
