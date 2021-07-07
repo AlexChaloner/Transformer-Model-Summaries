@@ -1,3 +1,6 @@
+# The Transformer
+## Attention is All You Need
+
 Arxiv Link: https://arxiv.org/pdf/1706.03762.pdf
 
 Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
