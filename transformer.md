@@ -8,14 +8,11 @@ Arxiv Link: https://arxiv.org/pdf/1706.03762.pdf
 
 Papers with Code link: https://paperswithcode.com/paper/attention-is-all-you-need
 
-
 > Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
-
 
 ## Summary
 
 Using only attention mechanisms (no LSTMs) to create an Encoder-Decoder model creates a well-performing language model.
-
 
 ## Architecture Details
 
@@ -35,14 +32,15 @@ N/A
 
 Sinusoidal encodings.
 
-$$ (PE(pos, 2i)     = sin(pos/10000^(2i/d)) $$
+{% raw %}
+$$ (PE_(pos, 2i) = sin(\frac{pos}{10000^(\frac{2i}{d})}) $$
 
-$$ ( PE(pos, 2i + 1) = cos(pos/10000*(2i/d)) $$
+$$ ( PE(pos, 2i + 1) = cos(\frac{pos}{10000^(\frac{2i}{d}})) $$
+{% endraw %}
 
 ### Attention Mechanism
 
 Multi-head scaled dot-product attention.
-
 
 ## Training Details
 
@@ -69,7 +67,6 @@ Warmup schedule, warmup for 4000 steps.
 
 Dropout to each sub-layer, 0.1 prob for 'base', 0.3 prob for 'big'.
 
-
 ## Evaluation
 
 ### Evaluation Datasets
@@ -79,11 +76,11 @@ WMT 2014 English-German and English-French.
 ### Evaluation Results
 
 BLEU scores:
+
 * WMT 2014 English-German: 28.4
 * WMT 2014 English-French: 41.0
 
 Time taken: "3.5 days on 8 P100 GPUs".
-
 
 ## Author's Conclusions
 
