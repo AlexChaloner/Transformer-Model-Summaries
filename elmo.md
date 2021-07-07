@@ -1,4 +1,4 @@
-# ELMo (Deep Contextualized Word Representations)
+# (ELMo) Deep Contextualized Word Representations
 
 Arxiv Link: https://arxiv.org/pdf/1802.05365.pdf
 
