@@ -38,7 +38,6 @@ $ (PE_(pos, 2i) = sin(\frac{pos}{10000^(\frac{2i}{d})}) $
 
 \[ ( PE(pos, 2i + 1) = cos(\frac{pos}{10000^(\frac{2i}{d}})) \]
 
-
 ### Attention Mechanism
 
 Multi-head scaled dot-product attention.
