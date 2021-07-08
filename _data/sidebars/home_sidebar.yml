@@ -7,13 +7,21 @@ entries:
   - title: Home
     output: web
     url: /index.html
-    type: homepage
   folders:
   - title: Transformers
     output: web
     folderitems:
+    - title: The Transformer
+      url: /transformer.html
+      output: web
     - title: BERT
       url: /bert.html
+      output: web
+    - title: ELMo
+      url: /elmo.html
+      output: web
+    - title: ALBERT
+      url: /albert.html
       output: web
 
 
