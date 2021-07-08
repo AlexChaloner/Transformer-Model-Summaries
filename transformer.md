@@ -4,15 +4,20 @@ layout: default
 
 # (The Transformer) Attention is All You Need
 
-Arxiv Link: https://arxiv.org/pdf/1706.03762.pdf
+Arxiv Link: [https://arxiv.org/pdf/1706.03762.pdf]
 
-Papers with Code link: https://paperswithcode.com/paper/attention-is-all-you-need
+Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-need]
 
 > Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
 
 ## Summary
 
 Using only attention mechanisms (no LSTMs) to create an Encoder-Decoder model creates a well-performing language model.
+
+|Model             |Parameters       |Train Steps  |Train cost (FLOPs)   |
+|------------------|-----------------|-------------|---------------------|
+|Transformer base  |$65 \times 10^6$ |100K         |$3.3 \times 10^{18}$ |
+|Transformer big   |$213 \times 10^6$|300K         |$2.3 \times 10^{19}$ |
 
 ## Architecture Details
 
@@ -32,10 +37,9 @@ N/A
 
 Sinusoidal encodings.
 
-$ PE_(pos, 2i) = sin(\frac{pos}{10000^{\frac{2i}{d}}}) $
+$ PE_{pos, 2i} = sin \big{(} \frac{pos}{10000^{\frac{2i}{d}}} \big{)}$
 
-$ PE_(pos, 2i + 1) = cos(\frac{pos}{10000^{\frac{2i}{d}}})) $
-
+$ PE_{pos, 2i + 1} = cos \big{(} \frac{pos}{10000^{\frac{2i}{d}}} \big{)} $
 
 ### Attention Mechanism
 
