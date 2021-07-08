@@ -1,5 +1,11 @@
 ---
-layout: default
+title: Alerts
+tags: [formatting]
+keywords: transformer, attention, vaswani
+last_updated: July 2021
+summary: "This is the Summary"
+sidebar: home_sidebar
+permalink: transformer.html
 ---
 
 # (The Transformer) Attention is All You Need

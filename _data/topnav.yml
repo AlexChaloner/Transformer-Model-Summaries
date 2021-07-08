@@ -5,7 +5,5 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/AlexChaloner/Transformer-Model-Summaries
-    - title: Main Page
-      url: /index.html
 
 # Copyright 2021 Google LLC

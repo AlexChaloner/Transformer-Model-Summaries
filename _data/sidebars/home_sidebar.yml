@@ -2,7 +2,7 @@
 
 entries:
 - title: Sidebar
-  levels: one
+  levels: two
   folderitems:
   - title: Home
     output: web
@@ -15,5 +15,6 @@ entries:
     - title: BERT
       url: /bert.html
       output: web
+
 
 # Copyright 2021 Google LLC
