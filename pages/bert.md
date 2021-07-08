@@ -1,4 +1,12 @@
-# (BERT) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+---
+title: "(BERT) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+tags: []
+keywords: transformer, BERT, attention, devlin, chang, lee, toutanova
+last_updated: July 2021
+summary: "BERT"
+sidebar: home_sidebar
+permalink: bert.html
+---
 
 Arxiv Link: https://arxiv.org/pdf/1810.04805.pdf
 

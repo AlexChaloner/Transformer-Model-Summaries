@@ -1,4 +1,12 @@
-# (ALBERT) ALBERT: A Lite BERT for Self-supervised Learning of Language Representations
+---
+title: "(ALBERT) ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
+tags: []
+keywords: transformer, ALBERT, attention, lan, chen, goodman, gimpel, sharma, soricut
+last_updated: July 2021
+summary: "ALBERT introduces changes to BERT to lower the number of parameters."
+sidebar: home_sidebar
+permalink: albert.html
+---
 
 Arxiv Link: https://arxiv.org/pdf/1909.11942.pdf
 
