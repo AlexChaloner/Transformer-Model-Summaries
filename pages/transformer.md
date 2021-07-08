@@ -1,24 +1,20 @@
 ---
-title: Alerts
+title: (The Transformer) Attention is All You Need
 tags: [formatting]
 keywords: transformer, attention, vaswani
 last_updated: July 2021
-summary: "This is the Summary"
+summary: "The Transformer is an encoder-decoder architecture using multi-layer attention-only layers."
 sidebar: home_sidebar
 permalink: transformer.html
 ---
 
-# (The Transformer) Attention is All You Need
-
-Arxiv Link: [https://arxiv.org/pdf/1706.03762.pdf]
+Arxiv Link: [https://arxiv.org/pdf/1706.03762.pdf](https://arxiv.org/pdf/1706.03762.pdf)
 
 Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-need]
 
 > Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
 
-## Summary
-
-Using only attention mechanisms (no LSTMs) to create an Encoder-Decoder model creates a well-performing language model.
+## Size and Costs
 
 |Model             |Parameters       |Train Steps  |Train cost (FLOPs)   |
 |------------------|-----------------|-------------|---------------------|
