@@ -9,7 +9,7 @@ topnav_title: Transformer Model Summaries
 site_title: Transformer Model Summaries
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2021 Google LLC
+company_name: Alex Chaloner
 # this appears in the footer
 
 # github_editme_path: AlexChaloner/Transformer-Model-Summaries/blob/gh-pages/
@@ -41,7 +41,7 @@ feedback_email: alex.chaloner@outlook.com
 # feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
-# feedback_text: "Need help?"
+feedback_text: "Feedback"
 # if you uncomment the previous line, it changes the Feedback text
 
 feedback_link: "/feedback.html"
