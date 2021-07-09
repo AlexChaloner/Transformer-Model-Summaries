@@ -10,16 +10,16 @@ permalink: transformer.html
 
 Arxiv Link: [https://arxiv.org/pdf/1706.03762.pdf](https://arxiv.org/pdf/1706.03762.pdf)
 
-Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-need]
+Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-need](https://paperswithcode.com/paper/attention-is-all-you-need)
 
 > Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
 
-## Size and Costs
+## Size and Pretraining Costs
 
-|Model             |Parameters       |Train Steps  |Train cost (FLOPs)   |
-|------------------|-----------------|-------------|---------------------|
-|Transformer base  |$65 \times 10^6$ |100K         |$3.3 \times 10^{18}$ |
-|Transformer big   |$213 \times 10^6$|300K         |$2.3 \times 10^{19}$ |
+|Model           |Parameters       |Train Steps|Tokens per step|Normalized computation cost (Parameters x steps x batch size)|
+|----------------|-----------------|-----------|---------------|-------------------------------------------------------------|
+|Transformer base|$65 \times 10^6$ |100K       |50000          |$3.25 \times 10^17$                                          |
+|Transformer big |$213 \times 10^6$|300K       |50000          |$3.195 \times 10^18$                                         |
 
 ## Architecture Details
 
