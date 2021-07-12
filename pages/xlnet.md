@@ -8,9 +8,9 @@ sidebar: home_sidebar
 permalink: xlnet.html
 ---
 
-Arxiv Link: https://arxiv.org/pdf/1906.08237.pdf
+[PDF](https://arxiv.org/pdf/1906.08237.pdf)
 
-Papers with Code link: https://paperswithcode.com/paper/xlnet-generalized-autoregressive-pretraining
+[Papers with Code](https://paperswithcode.com/paper/xlnet-generalized-autoregressive-pretraining)
 
 > Yang Z, Dai Z, Yang Y, Carbonell J, Salakhutdinov R, Le QV. Xlnet: Generalized autoregressive pretraining for language understanding. arXiv preprint arXiv:1906.08237. 2019 Jun 19.
 

@@ -8,9 +8,9 @@ sidebar: home_sidebar
 permalink: albert.html
 ---
 
-Arxiv Link: https://arxiv.org/pdf/1909.11942.pdf
+[PDF](https://arxiv.org/pdf/1909.11942.pdf)
 
-Papers with Code link: https://paperswithcode.com/paper/albert-a-lite-bert-for-self-supervised
+[Papers with Code](https://paperswithcode.com/paper/albert-a-lite-bert-for-self-supervised)
 
 
 > Lan Z, Chen M, Goodman S, Gimpel K, Sharma P, Soricut R. Albert: A lite bert for self-supervised learning of language representations. arXiv preprint arXiv:1909.11942. 2019 Sep 26.
@@ -102,7 +102,14 @@ SQuAD1.1, SQuAD2.0, MNLI, SST-2, RACE
 
 ## Author's Conclusions
 
-Although ALBERT has less parameters than BERT, it can easily be more computationally expensive. Sparse Attention (Child et al 2019) and Block Attention (Shen et al 2018) should be investigated. Also try efficient language modelling (Yang et al 2019)
+Although ALBERT has less parameters than BERT, it can easily be more computationally expensive. Sparse Attention [Child et al 2019] and Block Attention [Shen et al 2018] should be investigated. Also try efficient language modelling [Yang et al 2019] and Hard Example Mining [Mikolov et al 2013].
 
 Also sentence order prediction is alright, but there may be many more self-supervised methods to try out.
 
+
+[Mikolov et al 2013]: https://arxiv.org/abs/1310.4546
+[Child et al 2019]: https://arxiv.org/abs/1904.10509
+[Shen et al 2018]: https://arxiv.org/abs/1804.00857
+
+[Yang et al 2019]: https://arxiv.org/abs/1906.08237
+[XLNET]: https://arxiv.org/abs/1906.08237

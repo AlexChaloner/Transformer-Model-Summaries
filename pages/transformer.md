@@ -8,9 +8,9 @@ sidebar: home_sidebar
 permalink: transformer.html
 ---
 
-Arxiv Link: [https://arxiv.org/pdf/1706.03762.pdf](https://arxiv.org/pdf/1706.03762.pdf)
+[PDF](https://arxiv.org/pdf/1706.03762.pdf)
 
-Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-need](https://paperswithcode.com/paper/attention-is-all-you-need)
+[Papers with Code](https://paperswithcode.com/paper/attention-is-all-you-need)
 
 > Vaswani A, Shazeer N, Parmar N, Uszkoreit J, Jones L, Gomez AN, Kaiser L, Polosukhin I. Attention is all you need. arXiv preprint arXiv:1706.03762. 2017 Jun 12.
 
@@ -18,8 +18,8 @@ Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-ne
 
 |Model           |Parameters       |Train Steps|Tokens per step|Normalized computation cost (Parameters x steps x tokens per step)|
 |----------------|-----------------|-----------|---------------|-------------------------------------------------------------|
-|Transformer base|$65 \times 10^6$ |100K       |50000          |$3.25 \times 10^{17}$                                          |
-|Transformer big |$213 \times 10^6$|300K       |50000          |$3.195 \times 10^{18}$                                         |
+|Transformer base|$65 \times 10^6$ |100K       |50000          |$3.25 \times 10^{17}$                                        |
+|Transformer big |$213 \times 10^6$|300K       |50000          |$3.195 \times 10^{18}$                                       |
 
 ## Architecture Details
 
@@ -33,7 +33,7 @@ Wordpiece, vocab size 32000.
 
 ### Embeddings for multi-segment tasks
 
-N/A
+N/A - Multi-segment tasks are not considered in this paper.
 
 ### Positional Encoding
 
@@ -51,11 +51,11 @@ Multi-head scaled dot-product attention.
 
 ### Pre-training Data
 
-N/A
+N/A - This method does not do pre-training.
 
 ### Pre-training Method
 
-N/A
+N/A - This method does not do pre-training.
 
 ### Finetuning Data
 

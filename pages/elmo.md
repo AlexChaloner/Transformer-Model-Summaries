@@ -8,9 +8,9 @@ sidebar: home_sidebar
 permalink: elmo.html
 ---
 
-Arxiv Link: https://arxiv.org/pdf/1802.05365.pdf
+[PDF](https://arxiv.org/pdf/1802.05365.pdf)
 
-Papers with Code link: https://paperswithcode.com/paper/deep-contextualized-word-representations
+[Papers with Code](https://paperswithcode.com/paper/deep-contextualized-word-representations)
 
 
 > Peters ME, Neumann M, Iyyer M, Gardner M, Clark C, Lee K, Zettlemoyer L. Deep contextualized word representations. arXiv preprint arXiv:1802.05365. 2018 Feb 15.

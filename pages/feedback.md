@@ -8,4 +8,4 @@ summary: ""
 permalink: feedback.html
 ---
 
-Please send all feedback to alex.chaloner@outlook.com.
+Please send all feedback to [alex.chaloner@outlook.com].
