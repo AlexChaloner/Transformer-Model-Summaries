@@ -16,10 +16,10 @@ Papers with Code link: [https://paperswithcode.com/paper/attention-is-all-you-ne
 
 ## Size and Pretraining Costs
 
-|Model           |Parameters       |Train Steps|Tokens per step|Normalized computation cost (Parameters x steps x batch size)|
+|Model           |Parameters       |Train Steps|Tokens per step|Normalized computation cost (Parameters x steps x tokens per step)|
 |----------------|-----------------|-----------|---------------|-------------------------------------------------------------|
-|Transformer base|$65 \times 10^6$ |100K       |50000          |$3.25 \times 10^17$                                          |
-|Transformer big |$213 \times 10^6$|300K       |50000          |$3.195 \times 10^18$                                         |
+|Transformer base|$65 \times 10^6$ |100K       |50000          |$3.25 \times 10^{17}$                                          |
+|Transformer big |$213 \times 10^6$|300K       |50000          |$3.195 \times 10^{18}$                                         |
 
 ## Architecture Details
 

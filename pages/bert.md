@@ -21,6 +21,11 @@ Papers with Code link: https://paperswithcode.com/paper/bert-pre-training-of-dee
 BERT combines the best ideas [ELMo]((ELMo)-Deep-contextualized-word-representations) and [Attention Is All You Need](https://github.com/AlexChaloner/Transformer-Model-Summaries/wiki/(Transformer)-Attention-Is-All-You-Need) to create a large _pre-trained_ language model which fine-tunes well to downstream tasks.
 
 
+|Model             |Parameters       |Pretraining steps|Tokens per batch|Normalized computation cost (Parameters x steps x tokens per batch)|
+|------------------|-----------------|-----------------|----------------|-------------------------------------------------------------------|
+|BERT Base         |$110 \times 10^6$|$1 \times 10^6$  |128,000         |$1.408 \times 10^{19}$ |
+|BERT Large        |$340 \times 10^6$|$1 \times 10^6$  |128,000         |$4.352 \times 10^{19}$ |
+
 ## Architecture Details
 
 ### Tokenization
