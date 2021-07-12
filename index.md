@@ -4,7 +4,21 @@ layout: default
 
 # Chaloner's Transformer Wiki
 
-There are plenty of Transformer methods out there, and it's difficult to keep everything in my head. I'm writing everything out for my future self as well as any travellers who find themselves here!
+Tracking Transformers and BERTology.
+
+[In Progress]
+
+What you will find here:
+
+* Summaries of Transformer-based models
+* Summaries of methods used in Transformer models
+* Summaries of ablation tests
+* Organised lists of model computation cost
+* Organised lists of model size cost
+* Performance of models vs costs
+
+
+This can be seen as a complement with [Papers with Code](https://paperswithcode.com/); we set our gaze specifically on Transformer-based models and methods, and delve deep into their ablation findings and performance-cost ratios.
 
 ## Transformer Models
 
@@ -36,7 +50,7 @@ Planned:
 * Datasets
 * Tokenization Methods
 * Positional Encoding Methods
-* Conflicting findings from review papers
+* Conflicting findings from papers
 * Timeline
 
 [Transformer]: transformer
