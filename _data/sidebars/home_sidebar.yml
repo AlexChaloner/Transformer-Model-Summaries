@@ -23,6 +23,15 @@ entries:
     - title: ALBERT
       url: /albert.html
       output: web
+    - title: XLNET
+      url: /xlnet.html
+      output: web
+  - title: Info
+    output: web
+    folderitems:
+    - title: FLOPs
+      url: /flops.html
+      output: web
 
 
 # Copyright 2021 Google LLC
