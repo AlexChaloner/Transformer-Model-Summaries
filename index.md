@@ -4,9 +4,9 @@ layout: default
 
 # Chaloner's Transformer Wiki
 
-Tracking Transformers and BERTology.
+> Tracking Transformers and BERTology. Chaloner 2021.
 
-[In Progress]
+**In Progress**
 
 What you will find here:
 
@@ -17,8 +17,7 @@ What you will find here:
 * Organised lists of model size cost
 * Performance of models vs costs
 
-
-This can be seen as a complement with [Papers with Code](https://paperswithcode.com/); we set our gaze specifically on Transformer-based models and methods, and delve deep into their ablation findings and performance-cost ratios.
+This complements [Papers with Code](https://paperswithcode.com/); we set our gaze specifically on Transformer-based models and methods, and delve deep into their ablation findings and performance-cost ratios.
 
 ## Transformer Models
 
