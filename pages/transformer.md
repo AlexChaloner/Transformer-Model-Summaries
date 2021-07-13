@@ -1,6 +1,6 @@
 ---
 title: (The Transformer) Attention is All You Need
-tags: [architecture, attention]
+tags: [formatting]
 keywords: transformer, attention, vaswani
 last_updated: July 2021
 summary: "The Transformer is an encoder-decoder architecture using multi-layer attention-only layers."

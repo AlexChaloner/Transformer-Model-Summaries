@@ -1,6 +1,6 @@
 ---
 title: "(XLNET) XLNET: Generalized Autoregressize Pretraining for Language Understanding"
-tags: [architecture]
+tags: []
 keywords: xlnet, transformer, attention, yang, dai, carbonell
 last_updated: July 2021
 summary: "Paper finds that Next Sentence Prediction (NSP) from [BERT] does not necessarily improve performance."

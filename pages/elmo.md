@@ -1,6 +1,6 @@
 ---
 title: (ELMo) Deep Contextualized Word Representations
-tags: [architecture]
+tags: []
 keywords: elmo, lstm, peters, iyyer, gardner, clard, sentence, embeddings
 last_updated: July 2021
 summary: "Sentence Embeddings made with two layers of bidirectional LSTMs."
