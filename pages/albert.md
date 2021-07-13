@@ -126,9 +126,10 @@ SQuAD1.1, SQuAD2.0, MNLI, SST-2, RACE
 
 ## Author's Conclusions
 
-Although ALBERT has less parameters than BERT, it can easily be more computationally expensive. Sparse Attention [Child et al 2019] and Block Attention [Shen et al 2018] should be investigated. Also try efficient language modelling [Yang et al 2019] and Hard Example Mining [Mikolov et al 2013].
-
-Also sentence order prediction is alright, but there may be many more self-supervised methods to try out.
+* Although ALBERT has less parameters than BERT, it can easily be more computationally expensive. 
+* Sparse Attention ([Child et al 2019]) and Block Attention ([Shen et al 2018]) should be investigated.
+* Try efficient language modelling ([Yang et al 2019]) and Hard Example Mining ([Mikolov et al 2013]).
+* Sentence order prediction is alright, but there may be many more self-supervised methods to try out.
 
 
 [Mikolov et al 2013]: https://arxiv.org/abs/1310.4546
