@@ -1,8 +1,8 @@
 ---
-title: "Formatting pages"
-tagName: formatting
+title: "Architecture pages"
+tagName: architecture
 search: exclude
-permalink: tag_formatting.html
+permalink: tag_architecture.html
 sidebar: home_sidebar
 folder: tags
 ---
