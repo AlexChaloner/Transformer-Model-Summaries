@@ -12,9 +12,7 @@ permalink: bert.html
 
 [Papers with Code](https://paperswithcode.com/paper/bert-pre-training-of-deep-bidirectional)
 
-
 > Devlin J, Chang MW, Lee K, Toutanova K. Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805. 2018 Oct 11.
-
 
 ## Summary
 
@@ -42,8 +40,7 @@ Learnable Positional Embeddings.
 
 ### Attention Mechanism
 
-Basic Attention.
-
+Multi-head scaled dot-product attention.
 
 ## Training Details
 

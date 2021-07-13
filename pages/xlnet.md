@@ -14,3 +14,41 @@ permalink: xlnet.html
 
 > Yang Z, Dai Z, Yang Y, Carbonell J, Salakhutdinov R, Le QV. Xlnet: Generalized autoregressive pretraining for language understanding. arXiv preprint arXiv:1906.08237. 2019 Jun 19.
 
+## Summary
+
+
+## Architecture Details
+
+### Tokenization
+
+
+### Embeddings for multi-segment tasks
+
+
+### Positional Encoding
+
+
+### Attention Mechanism
+
+
+## Training Details
+
+### Pre-training Data
+
+### Pre-training Method
+
+
+
+### Finetuning Data
+
+### Finetuning Method
+
+
+## Evaluation
+
+### Evaluation Datasets
+
+### Evaluation Results
+
+
+## Author's Conclusions

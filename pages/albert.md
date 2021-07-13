@@ -26,22 +26,20 @@ ALBERT modifies [BERT] by sharing parameters between layers and factorizing the 
 |ALBERT-xlarge |60M       |24    |2048  |128      |
 |ALBERT-xxlarge|235M      |12    |4096  |128      |
 
-
 Note that, due to parameter sharing in ALBERT, the number of parameters is separate from the effective computation cost; it affects only memory requirements.
 
 Formula used to calculate compute parameters:
 
-$$ V \times E + E \times H + L * (4 \times H^2 + 2 \times 4H^2) + H^2$$
+$$ V \times E + E \times H + L \times (4 \times H^2 + 2 \times 4H^2) + H^2$$
 
 Where $V$, $E$, $H$ and $L$ represent the Vocab size, Embedding size, Hidden size and Layer number respectively.
 
 |Model         |Compute Parameters |Pretraining steps|Tokens per batch |Normalized computation cost (Parameters x steps x tokens per batch)|
-|--------------|-------------------|-----------------|-----------------|-------------------------------------------------------------------|
+|--------------|------------------:|-----------------|-----------------|------------------------------------------------------------------:|
 |ALBERT-base   |$89 \times 10^6$   |$125,000$        |$4096 \times 512$|$2.333 \times 10^{19}$ |
 |ALBERT-large  |$307 \times 10^6$  |$125,000$        |$4096 \times 512$|$8.048 \times 10^{19}$ |
 |ALBERT-xlarge |$1216 \times 10^6$ |$125,000$        |$4096 \times 512$|$3.188 \times 10^{20}$ |
 |ALBERT-xxlarge|$2437 \times 10^6$ |$125,000$        |$4096 \times 512$|$6.388 \times 10^{20}$ |
-
 
 ## Architecture Details
 
@@ -67,6 +65,8 @@ Multi-head scaled dot-product attention.
 
 Wikipedia and BookCorpus.
 
+As well as "The additional data used by [XLNET] and [RoBERTa]"
+
 ### Pre-training Method
 
 **Masked Language Modelling:**
@@ -78,7 +78,8 @@ N-gram masking, maximum n-gram of three. Authors cite this to [Joshi et al 2019]
 
 **Sentence Order Prediction:**
 Reject NSP; replace with sentence order prediction.
-1. Take two sentences next to each other.
+
+1. Take two sentences next to each other
 2. Make model predict their order
 
 ### Finetuning Data

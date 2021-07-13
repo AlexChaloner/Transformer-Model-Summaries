@@ -8,6 +8,6 @@ sidebar: home_sidebar
 permalink: flops.html
 ---
 
-See Appendix A of [Megatron2]
+See Appendix A of [this paper](Megatron2).
 
 [Megatron2]: https://arxiv.org/pdf/2104.04473.pdf
