@@ -36,7 +36,7 @@ Separate Embeddings for different Segment Types.
 
 ### Positional Encoding
 
-Learnable Positional Embeddings.
+Learnable Absolute Positional Embeddings.
 
 ### Attention Mechanism
 
@@ -46,14 +46,18 @@ Multi-head scaled dot-product attention.
 
 ### Pre-training Data
 
+BooksCorpus and English Wikipedia.
+
 ### Pre-training Method
 
 **Masked Language Modelling:**
+
 1. Choose 15% of tokens to mask.
 2. Of these tokens, replace 80% with special token [MASK], 10% with a random token from vocabulary, and 10% with the same token.
 3. Train model to predict those tokens based on sentence presented to them via cross-entropy loss.
 
 **Next Sentence Prediction:**
+
 1. Feed model two sentences
 2. 50% of the time, choose the second sentence to be a sentence following from the first sentence in the original corpus. The other 50%, choose a random sentence.
 3. Label these as 'ISNEXT' or 'NOTNEXT'.
@@ -61,14 +65,53 @@ Multi-head scaled dot-product attention.
 
 ### Finetuning Data
 
+GLUE, SQuAD v1.1, SQuAD v2.0, SWAG
+
 ### Finetuning Method
 
+### Results
 
-## Evaluation
+**GLUE**
 
-### Evaluation Datasets
+| Model       | MNLI-(m/mm) | QQP  | QNLI | SST-2 | CoLA | STS-B | MRPC | RTE  | GLUE Average |
+|-------------|-------------|------|------|-------|------|-------|------|------|--------------|
+| BERT-base   | 84.6/83.4   | 71.2 | 90.5 | 93.5  | 52.1 | 85.8  | 88.9 | 66.4 | 79.6         |
+| BERT-large  | 86.7/85.9   | 72.1 | 92.7 | 94.9  | 60.5 | 86.5  | 89.3 | 70.1 | 82.1         |
 
-### Evaluation Results
+
+**SQuAD 1.1**
+
+The BERT paper presents models which are single, ensemble, and fine-tuned on extra data (TriviaQA).
+
+EM stands for exact match.
+
+| Model                            | Dev EM | Dev F1 | Test EM | Test F1 |
+|----------------------------------|--------|--------|---------|---------|
+| BERT-base  (Single)              | 80.8   | 88.5   | -       | -       |
+| BERT-large (Single)              | 84.1   | 90.9   | -       | -       |
+| BERT-large (Ensemble)            | 85.8   | 91.8   | -       | -       |
+| BERT-large (Single + TriviaQA)   | 84.2   | 91.1   | 85.1    | 91.8    |
+| BERT-large (Ensemble + TriviaQA) | 86.2   | 92.2   | 87.4    | 93.2    |
+
+
+**SQuAD 2.0**
+
+| Model       | Dev EM | Dev F1 | Test EM | Test F1 |
+|-------------|--------|--------|---------|---------|
+| BERT-large  | 78.7   | 81.9   | 80.0    | 83.1    |
+
+
+**SWAG**
+
+| Model       | Dev  | Test |
+|-------------|------|------|
+| BERT-base   | 81.6 | -    |
+| BERT-large  | 86.6 | 86.3 |
+
+### Ablation Tests
 
 
 ## Author's Conclusions
+
+* Unsupervised pre-training is good for NLP systems
+* Bidirectional architecture generalises well to many NLP tasks

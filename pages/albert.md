@@ -53,7 +53,7 @@ Standard
 
 ### Positional Encoding
 
-Absolute
+Learnable Absolute Positional Embeddings.
 
 ### Attention Mechanism
 

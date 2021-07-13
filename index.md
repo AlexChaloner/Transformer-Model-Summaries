@@ -21,12 +21,15 @@ This complements [Papers with Code](https://paperswithcode.com/); we set our gaz
 
 ## Transformer Models
 
-In Progress:
+Complete:
 
 * [Transformer]
+* [ALBERT]
+
+In Progress:
+
 * [ELMo]
 * [BERT]
-* [ALBERT]
 * [XLNET]
 
 Planned:
