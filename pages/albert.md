@@ -1,7 +1,7 @@
 ---
 title: "(ALBERT) ALBERT: A Lite BERT for Self-supervised Learning of Language Representations"
 tags: [architecture]
-keywords: transformer, ALBERT, attention, lan, chen, goodman, gimpel, sharma, soricut
+keywords: transformer, ALBERT, attention, lan, chen, goodman, gimpel, sharma, soricut, lan et al, 2019, google, google research, toyota, chicago, toyota technological institute at chicago
 last_updated: July 2021
 summary: "ALBERT introduces changes to BERT to lower the number of parameters."
 sidebar: home_sidebar

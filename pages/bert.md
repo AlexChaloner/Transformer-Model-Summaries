@@ -1,7 +1,7 @@
 ---
 title: "(BERT) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
 tags: [architecture]
-keywords: transformer, BERT, attention, devlin, chang, lee, toutanova
+keywords: transformer, BERT, attention, devlin, chang, lee, toutanova, devlin et al, 2018, google, language, google language
 last_updated: July 2021
 summary: "BERT"
 sidebar: home_sidebar
