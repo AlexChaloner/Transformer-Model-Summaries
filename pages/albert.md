@@ -17,7 +17,7 @@ permalink: albert.html
 
 ## Summary
 
-ALBERT modifies [BERT] by sharing parameters between layers and factorizing the embedding layer into two smaller matrices, as well as trading next sentence prediction (NSP) for sentence order prediction (SOP) due to findings from [Yang et al (XLNET)](XLNET) and [Liu et al (RoBERTa)](RoBERTa).
+ALBERT modifies [BERT] by sharing parameters between layers and factorizing the embedding layer into two smaller matrices, as well as trading next sentence prediction (NSP) for sentence order prediction (SOP) due to findings from [Yang et al (XLNET)][XLNET] and [Liu et al (RoBERTa)][RoBERTa].
 
 |Model Name.   |Parameters|Layers|Hidden|Embedding|
 |--------------|----------|------|------|---------|
