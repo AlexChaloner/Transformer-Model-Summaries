@@ -70,7 +70,7 @@ As well as "The additional data used by [XLNET] and [RoBERTa]"
 ### Pre-training Method
 
 **Masked Language Modelling:**
-N-gram masking, maximum n-gram of three. Authors cite this to [Joshi et al 2019](Joshi et al 2019).
+N-gram masking, maximum n-gram of three. Authors cite this to [Joshi et al 2019][Joshi et al 2019].
 
 1. Choose 15% of tokens to mask according to N-gram masking distribution for contiguous tokens.
 2. Of these chosen token blocks, replace 80% with special token \[MASK\], 10% with a random token from vocabulary, and 10% with the same token.
