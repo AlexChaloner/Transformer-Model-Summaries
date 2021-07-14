@@ -29,7 +29,7 @@ For English-German Task:
 Byte pair encoding, vocab size 37000.
 
 For English-French Task:
-Wordpiece, vocab size 32000.
+Wordpiece ([Wu et al 2016]), vocab size 32000.
 
 ### Embeddings for multi-segment tasks
 
@@ -92,3 +92,6 @@ Time taken: "3.5 days on 8 P100 GPUs".
 * Transformer can be trained faster than architectures based on recurrent or convolutional layers
 * Wish to investigated restricted attention mechanisms to efficiently handle large inputs and outputs (eg for images, audio, video).
 * Also wish to make generation of text less sequential
+
+
+[Wu et al 2016]: https://arxiv.org/abs/1609.08144
