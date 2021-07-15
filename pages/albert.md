@@ -17,7 +17,7 @@ permalink: albert.html
 
 ## Summary
 
-ALBERT modifies [BERT] by sharing parameters between layers and factorizing the embedding layer into two smaller matrices, as well as trading next sentence prediction (NSP) for sentence order prediction (SOP) due to findings from [Yang et al (XLNET)][XLNET] and [Liu et al (RoBERTa)][RoBERTa].
+ALBERT modifies [BERT] by sharing parameters between layers and factorizing the embedding layer into two smaller matrices, as well as trading next sentence prediction (NSP) for sentence order prediction (SOP) due to findings from [Yang et al 2019 (XLNET)][XLNET] and [Liu et al 2019 (RoBERTa)][RoBERTa].
 
 |Model Name.   |Parameters|Layers|Hidden|Embedding|
 |--------------|----------|------|------|---------|
@@ -70,7 +70,7 @@ As well as "The additional data used by [XLNET] and [RoBERTa]"
 ### Pre-training Method
 
 **Masked Language Modelling:**
-N-gram masking, maximum n-gram of three. Authors cite this to [Joshi et al 2019][Joshi et al 2019].
+N-gram masking, maximum n-gram of three. Authors cite this to [Joshi et al 2019].
 
 1. Choose 15% of tokens to mask according to N-gram masking distribution for contiguous tokens.
 2. Of these chosen token blocks, replace 80% with special token \[MASK\], 10% with a random token from vocabulary, and 10% with the same token.
