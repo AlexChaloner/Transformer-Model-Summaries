@@ -4,7 +4,7 @@ layout: default
 
 # Chaloner's Transformer Wiki
 
-> Tracking Transformers and BERTology. Chaloner 2021.
+> Tracking Transformers and BERTology.
 
 **In Progress**
 
@@ -28,12 +28,13 @@ Complete:
 
 In Progress:
 
-* [ELMo]
 * [BERT]
+* [ELMo]
 * [XLNET]
 
 Planned:
 
+* DistilBERT
 * RoBERTa
 * DeBERTa
 * T5
